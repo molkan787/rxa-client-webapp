@@ -4,7 +4,7 @@ import store from '../store';
 export default class DataManager{
 
     static get API_BASE_URL(){
-        return window.DEV ? 'http://localhost:3000' : 'http://api.middlemanguide.com';
+        return window.DEV ? 'http://localhost:3000' : 'https://api.amaccountancys.com';
     }
 
     static loadInitialData(){
